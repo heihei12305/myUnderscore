@@ -1,0 +1,17 @@
+{
+  "name": "my-underscore",
+  "version": "1.0.1",
+  "description": "\"Function lib and example in ES6\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "playground":"babel-node functional-playground/play.js --presets es2015-node5"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015-node5": "^1.2.0"
+  }
+}
